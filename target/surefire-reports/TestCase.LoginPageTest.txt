@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestCase.LoginPageTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 1.653 sec <<< FAILURE!
+setUp(TestCase.LoginPageTest)  Time elapsed: 1.462 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\kindd\eclipse-workspace\BDD\Database\drivers\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:156)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:346)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:91)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at Base.TestBase.initializeDriver(TestBase.java:24)
+	at TestCase.LoginPageTest.setUp(LoginPageTest.java:18)
+
